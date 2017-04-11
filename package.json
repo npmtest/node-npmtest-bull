@@ -1,1 +1,40 @@
-{     "devDependencies": {         "bull": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-bull",     "homepage": "https://github.com/npmtest/node-npmtest-bull",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-bull.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [bull (v2.2.6)](https://github.com/OptimalBits/bull#readme) [![npm package](https://img.shields.io/npm/v/npmtest-bull.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bull) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bull.svg)](https://travis-ci.org/npmtest/node-npmtest-bull)",
+    "devDependencies": {
+        "bull": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-bull",
+    "keywords": [
+        "coverage",
+        "test",
+        "bull"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_bull.js",
+    "name": "npmtest-bull",
+    "nameAlias": "npmtest_bull",
+    "nameOriginal": "npmtest-bull",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-bull.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
