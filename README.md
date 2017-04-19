@@ -1,7 +1,10 @@
-# test coverage for  [bull (v2.2.6)](https://github.com/OptimalBits/bull#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bull.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bull) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bull.svg)](https://travis-ci.org/npmtest/node-npmtest-bull)
+# npmtest-bull
+
+#### test coverage for  [bull (v2.2.6)](https://github.com/OptimalBits/bull#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bull.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bull) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bull.svg)](https://travis-ci.org/npmtest/node-npmtest-bull)
+
 #### Job manager
 
-[![NPM](https://nodei.co/npm/bull.png?downloads=true)](https://www.npmjs.com/package/bull)
+[![NPM](https://nodei.co/npm/bull.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bull)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-bull/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bull/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bull/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bull/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bull/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-bull/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-bull/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-bull/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bull/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-bull/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-bull%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-bull/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-bull/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-bull/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-bull/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-bull%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bull/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-bull/build/test-report.html](https://npmtest.github.io/node-npmtest-bull/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-bull/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-bull/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-bull/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-bull/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-bull/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bull/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-bull/build/screenCapture.npmPackageListing.svg)
 
@@ -67,13 +76,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "manast",
-            "email": "manuel@optimalbits.com"
+            "name": "manast"
         }
     ],
     "name": "bull",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/OptimalBits/bull.git"
